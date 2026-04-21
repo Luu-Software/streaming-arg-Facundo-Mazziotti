@@ -1,6 +1,10 @@
-body{color: #030026;
-background-image:url(img/Fondo.png) ;
+body{background-color: #030026;
+background-image:url(img/Fondo.png);
+background-size: 100% 150%;
+
 }
+
+
 * {
   margin: 0;
   padding: 0;
@@ -28,16 +32,15 @@ letter-spacing: 0.67px;
 
 }
 
-.buttons {
- display: flex;
-    width: 486.667px;
-    height: 186.667px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 32px;
-    background: linear-gradient(117deg,rgba(255, 255, 255, 0.15) 23.56%,rgba(153, 153, 153, 0.15) 76.44%);
-    box-shadow: 0px 6.667px 26.667px 0px rgba(27, 27, 27, 0.25),2.6px -2.68px 26.667px 0px rgba(214, 214, 214, 0.17) inset,-4.018px 4.018px 4.018px 0px rgba(255, 255, 255, 0.39) inset;
-    backdrop-filter: blur(49.61956024169922px);
+.buttons { margin: 36px 0;
+  display: flex;
+  padding: 64px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 68px;
+  align-self: stretch;
+  flex-wrap: wrap;
 }
 
 .Luzu {display: flex;
@@ -48,12 +51,88 @@ letter-spacing: 0.67px;
   border-radius: 32px;
   background: linear-gradient(117deg,rgba(255, 255, 255, 0.15) 23.56%,rgba(153, 153, 153, 0.15) 76.44%);
   box-shadow: 0px 6.667px 26.667px 0px rgba(27, 27, 27, 0.25),2.6px -2.68px 26.667px 0px rgba(214, 214, 214, 0.17) inset,-4.018px 4.018px 4.018px 0px rgba(255, 255, 255, 0.39) inset;
-  backdrop-filter: blur(49.61956024169922px);}
+  backdrop-filter: blur(49.61956024169922px);
+  filter: brightness(100%);
+  transition-duration: 0.3s ease;
+  ;
+ }
+ .Luzu:hover {filter: brightness(1.3);}
+
+.Olga {
+  display: flex;
+  width: 486.667px;
+  height: 186.667px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  background: linear-gradient(117deg,rgba(255, 255, 255, 0.15) 23.56%,rgba(153, 153, 153, 0.15) 76.44%);
+  box-shadow: 0px 6.667px 26.667px 0px rgba(27, 27, 27, 0.25),2.6px -2.68px 26.667px 0px rgba(214, 214, 214, 0.17) inset,-4.018px 4.018px 4.018px 0px rgba(255, 255, 255, 0.39) inset;
+  backdrop-filter: blur(49.61956024169922px);
+  filter: brightness(100%);
+  transition-duration: 0.3s ease;
+}
+
+.Olga:hover {filter: brightness(1.3);}
+
+.Gelatina {
+  display: flex;
+  width: 486.667px;
+  height: 186.667px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  background: linear-gradient(117deg,rgba(255, 255, 255, 0.15) 23.56%,rgba(153, 153, 153, 0.15) 76.44%);
+  box-shadow: 0px 6.667px 26.667px 0px rgba(27, 27, 27, 0.25),2.6px -2.68px 26.667px 0px rgba(214, 214, 214, 0.17) inset,-4.018px 4.018px 4.018px 0px rgba(255, 255, 255, 0.39) inset;
+  backdrop-filter: blur(49.61956024169922px);
+  filter: brightness(100%);
+  transition-duration: 0.3s ease;
+}
+
+.Gelatina:hover {filter: brightness(1.3);}
+
+.vorterix {
+  display: flex;
+  width: 486.667px;
+  height: 186.667px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  background: linear-gradient(117deg,rgba(255, 255, 255, 0.15) 23.56%,rgba(153, 153, 153, 0.15) 76.44%);
+  box-shadow: 0px 6.667px 26.667px 0px rgba(27, 27, 27, 0.25),2.6px -2.68px 26.667px 0px rgba(214, 214, 214, 0.17) inset,-4.018px 4.018px 4.018px 0px rgba(255, 255, 255, 0.39) inset;
+  backdrop-filter: blur(49.61956024169922px);
+  filter: brightness(100%);
+  transition-duration: 0.3s ease;
+}
+
+.vorterix:hover {filter: brightness(1.3);}
+
+.Blender {
+  display: flex;
+  width: 486.667px;
+  height: 186.667px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  background: linear-gradient(117deg,rgba(255, 255, 255, 0.15) 23.56%,rgba(153, 153, 153, 0.15) 76.44%);
+  box-shadow: 0px 6.667px 26.667px 0px rgba(27, 27, 27, 0.25),2.6px -2.68px 26.667px 0px rgba(214, 214, 214, 0.17) inset,-4.018px 4.018px 4.018px 0px rgba(255, 255, 255, 0.39) inset;
+  backdrop-filter: blur(49.61956024169922px);
+  filter: brightness(100%);
+  transition-duration: 0.3s ease;
+}
+
+.Blender:hover {filter: brightness(1.3);}
 
 footer {
   display: flex;
   justify-content: space-between;
   border-top: #f2f2f2 1px solid;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #7363D3;
+  margin-left: 108px;
+  margin-right: 108px;
+  padding-top: 50px;
 }
 
 .icons {
